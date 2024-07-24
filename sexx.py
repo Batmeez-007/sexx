@@ -1,6 +1,6 @@
 import platform
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import sexx64_enc
+    import sexx64_
 elif bit == '32bit':
-    import sexx32enc_
+    import sexx32_
